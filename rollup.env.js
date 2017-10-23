@@ -45,9 +45,11 @@ var productionConfig =
 var developmentConfig =
 {
    name: 'bell',
-   entry:  'main.js',
-   dest:   'build/main.js',
-   format: 'iife',
+   input:  'main.js',
+   output:   {
+     file: 'build/main.js',
+     format: 'iife'
+   },
    plugins:
    [
       babel({

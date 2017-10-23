@@ -4,7 +4,8 @@
   "description": "template project structure for react dev",
   "main": "index.js",
   "scripts": {
-    "test": "no test"
+    "test": "no test",
+    "start": "rollup -c rollup.env.js"
   },
   "keywords": [
     "react",
